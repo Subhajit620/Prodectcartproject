@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productkart</title>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"> -->
+  <style>
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+    }
+
+    .container-fluid {
+      display: flex;
+      background-color: aqua;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 40px;
+      
+    
+    }
+
+    .form-control {
+      position: absolute;
+
+      right: 39%;
+      height: 40px;
+      width: 32%;
+      top: 15px;
+      border-radius: 7px;
+      outline: none;
+      border: none;
+
+    }
+
+    .btn {
+      height: 40px;
+      width: 100px;
+      position: absolute;
+      right: 24%;
+      top: 15px;
+      border-radius: 7px;
+      outline: none;
+      /* color: rgb(230, 230, 230); */
+      background-color: hsla(204, 76%, 56%, 0.973);
+      border: none;
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: bold;
+
+
+    }
+
+    .btn2 {
+
+      height: 40px;
+      width: 100px;
+      position: absolute;
+      right: 12%;
+      top: 15px;
+      border-radius: 7px;
+      outline: none;
+      color: rgb(255, 255, 255);
+      background-color: hsla(16, 80%, 60%, 0.973);
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .logo {
+      height: 30px;
+      width: 30px;
+      margin: 0;
+
+      padding-left: 10px;
+    }
+
+    .navbar-brand {
+      color: rgb(255, 255, 255);
+      color: white;
+      font-style: italic;
+      font-size: 20px;
+    }
+
+    a {
+      font-weight: bold;
+
+    }
+
+    .searchicon {
+      height: 30px;
+      width: 30px;
+      position: absolute;
+      left: 58%;
+
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+
+
+
+  <nav class="navbar bg-body-tertiary">
+
+    <div class="container-fluid">
+      <a href="/">
+        <img class="logo" src="https://cdn0.iconfinder.com/data/icons/ecommerce-38/34/7-64.png" alt="">
+        <a href="/" class="navbar-brand">Productkart</a>
+        <a href="/">
+          <img class="logo" src="https://cdn0.iconfinder.com/data/icons/ecommerce-38/34/7-64.png" alt="">
+        </a>
+      </a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <div id='button-holder'>
+          <a href="#">
+            <img class="searchicon"
+              src='https://cdn4.iconfinder.com/data/icons/symbol-blue-set-1/100/Untitled-2-12-64.png' />
+          </a>
+        </div>
+        <button class="btn" type="submit" ><a href="/login">login</a></button>
+        <button class="btn2" type="submit"><a href="/register">Register</a></button>
+      </form>
+    </div>
+  </nav>
+
+
+
+ 
+
+
+</body>
+
+
+
+</script>
+
+</html>
